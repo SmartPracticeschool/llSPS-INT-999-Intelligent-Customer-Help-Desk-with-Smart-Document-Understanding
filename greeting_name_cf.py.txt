@@ -1,0 +1,10 @@
+import sys
+
+def main(dict):
+  if 'name' in dict:
+    name = dict['name']
+  else:
+    name = 'sanskar'
+  greeting = 'Hello ' + name + '!'
+  print(greeting)
+  return {'greeting':greeting}
